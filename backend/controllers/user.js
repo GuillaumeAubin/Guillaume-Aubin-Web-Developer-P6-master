@@ -1,8 +1,11 @@
+// Création des actions pour le modèle "user"
+
+//Importation des modules bcrypt et jsonwebtoken
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-
 const User = require('../models/User');
 
+// Création d'un compte utilisateur avec cryptage du mdp
 exports.signup = (req, res, next) => {
     bcrypt.hash(req.body.password, 10)
       .then(hash => {
@@ -17,6 +20,7 @@ exports.signup = (req, res, next) => {
       .catch(error => res.status(500).json({ error }));
   };
 
+// Connexion à un compte utilisateur avec un token
 exports.login = (req, res, next) => {
   console.log(req.body.email);
   User.findOne({ email: req.body.email })
@@ -41,4 +45,4 @@ exports.login = (req, res, next) => {
           .catch(error => res.status(500).json({ error }));
       })
       .catch(error => res.status(500).json({ error }));
-  };
+};

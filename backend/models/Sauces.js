@@ -1,3 +1,5 @@
+// Création du type de données de la base "Sauce"
+
 const mongoose = require('mongoose');
 
 const sauceSchema = mongoose.Schema({

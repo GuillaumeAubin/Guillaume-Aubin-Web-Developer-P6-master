@@ -1,3 +1,5 @@
+// Création de la route permettant les actions liées à "user"
+
 const express = require('express');
 const router = express.Router();
 

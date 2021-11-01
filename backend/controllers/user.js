@@ -22,7 +22,6 @@ exports.signup = (req, res, next) => {
 
 // Connexion à un compte utilisateur avec un token
 exports.login = (req, res, next) => {
-  console.log(req.body.email);
   User.findOne({ email: req.body.email })
       .then(user => {
         if (!user) {

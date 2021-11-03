@@ -9,11 +9,9 @@
 ***
 ## 📎 Projet 6 - Construisez une API sécurisée pour une application d'avis gastronomiques "PIIQUANTE"
 
-### Créer des interfaces dynamiques
+### 🔨 Construisez une API sécurisée avec Javascript
 
 Le site hébergé sur GitHub : [PIIQUANTE](https://github.com/GuillaumeAubin/PIIQUANTE_API_securisee_Javascript)
-
-#### 🔨 Construisez une API sécurisée avec Javascript
 
 ##### Compétences évaluées
 
@@ -25,7 +23,7 @@ Le site hébergé sur GitHub : [PIIQUANTE](https://github.com/GuillaumeAubin/PII
 
 ***
 
-##### Développement Backend en Javascript
+### Développement Backend en Javascript
 
 * Serveur Node.js
 * Framework Express
@@ -34,6 +32,8 @@ Le site hébergé sur GitHub : [PIIQUANTE](https://github.com/GuillaumeAubin/PII
   * Opérations relatives à la BDD réalisées avec mongoose
 * API REST
 * Sécurité OWASP et RGPD
+
+***
 
 ### Test de l'application
 

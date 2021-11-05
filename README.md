@@ -48,4 +48,4 @@ Le site hébergé sur GitHub : [PIIQUANTE](https://github.com/GuillaumeAubin/PII
 1. Cloner le <a href='https://github.com/GuillaumeAubin/PIIQUANTE_API_securisee_Javascript/tree/master/backend'>backend</a> de l'application.
 2. Pour le projet, le fichier .env est ignoré dans gitignore
 3. installer les dépendances : npm install
-4. lancer nodemon serve
+4. lancer : nodemon serve

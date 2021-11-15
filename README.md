@@ -9,7 +9,7 @@
 ***
 ## 📎 Projet 6 - Construisez une API sécurisée pour une application d'avis gastronomiques "PIIQUANTE"
 
-### 🔨 Construisez une API sécurisée avec Javascript
+### 🔨 Construisez une API sécurisée avec JavaScript
 
 Le site hébergé sur GitHub : [PIIQUANTE](https://github.com/GuillaumeAubin/PIIQUANTE_API_securisee_Javascript)
 

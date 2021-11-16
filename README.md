@@ -23,7 +23,7 @@ Le site hébergé sur GitHub : [PIIQUANTE](https://github.com/GuillaumeAubin/PII
 
 ***
 
-### Développement Backend en Javascript
+### Développement Backend en JavaScript
 
 * Serveur Node.js
 * Framework Express
